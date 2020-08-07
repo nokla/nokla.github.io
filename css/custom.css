@@ -219,4 +219,7 @@ label {
   .adresse-label {
     font-size: 4.5vw;
   }
+  .marginT-20{
+    margin-top: 20px;
+  }
 }
