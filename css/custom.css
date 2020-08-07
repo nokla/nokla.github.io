@@ -186,10 +186,14 @@ label {
     background-image: url(../img/mobile-1.jpg);
   }
   .con-about {
-    background-image: url(../img/mobile-3.jpg);
+    background-image: url(../img/mobile-2.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   .text-about {
-    /* margin-top: 15rem; */
+    background-image: url(../img/mobile-3.jpg);
+    margin-top: 15rem;
   }
   .home-description {
     margin-top: 40px;
