@@ -35,9 +35,9 @@ body {
 }
 .con-about {
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
   min-height: 100%;
-  /* background-size: 100% 100%; */
+  background-size: 100% 100%;
   background-image: url(../img/bg2.jpg);
 }
 .col img {
@@ -160,6 +160,9 @@ label {
   /* margin-top: 20px; */
   margin-bottom: 10px;
 }
+.img-about{
+  display: none;
+}
 @media only screen and (max-width: 990px) {
   .navbar-toggler-icon {
     height: 2em;
@@ -225,5 +228,8 @@ label {
   }
   .marginT-20{
     margin-top: 20px;
+  }
+  .img-about{
+    display: block;
   }
 }
