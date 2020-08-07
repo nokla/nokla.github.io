@@ -107,7 +107,7 @@ label {
   font-family: Ghotam-Light;
   color: white;
   text-align: justify;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .about-text {
   font-family: Ghotam-Light;
@@ -123,7 +123,7 @@ label {
 }
 .services-list {
   font-family: Ghotam-Light;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-rendering: optimizeLegibility !important;
 }
 .contact {
@@ -162,6 +162,12 @@ label {
 }
 .img-about{
   display: none;
+}
+.break{
+  display: none;
+}
+.pad-l{
+  padding-left: 25px;
 }
 @media only screen and (max-width: 990px) {
   .navbar-toggler-icon {
@@ -234,5 +240,11 @@ label {
   }
   .phone-marg{
     margin-bottom: 0px;
+  }
+  .break{
+    display: block;
+  }
+  .pad-l{
+    padding-left: 15px;
   }
 }
