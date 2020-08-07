@@ -200,10 +200,6 @@ label {
     background-repeat: no-repeat;
     background-size: 100%; */
   }
-  /* .text-about {
-    background-image: url(../img/mobile-22.jpg);
-    margin-top: 15rem;
-  } */
   .home-description {
     margin-top: 40px;
   }
@@ -246,5 +242,14 @@ label {
   }
   .pad-l{
     padding-left: 15px;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
+  .services-list{
+    font-size: 0.8rem;
+  }
+  .about-text{
+    font-size: 0.8rem;
   }
 }
