@@ -36,7 +36,8 @@ body {
 .con-about {
   background-position: center;
   background-size: cover;
-  background-size: 100% 100%;
+  min-height: 100%;
+  /* background-size: 100% 100%; */
   background-image: url(../img/bg2.jpg);
 }
 .col img {
@@ -80,6 +81,11 @@ label {
   -webkit-text-stroke: 1.5px black;
 }
 .title2 {
+  font-family: Maiadra;
+  color: white;
+  
+}
+.home-sub-title {
   font-family: Maiadra;
   color: white;
   margin-top: 30px;
@@ -147,6 +153,9 @@ label {
 .expertise {
   margin-bottom: 10px;
 }
+.missions {
+  font-size: 20px !important;
+}
 .finalite {
   /* margin-top: 20px; */
   margin-bottom: 10px;
@@ -188,8 +197,12 @@ label {
   .title1 {
     font-size: 6vw;
   }
-  .title2 {
+  .home-sub-title {
     font-size: 3.5vw;
+  }
+  .title2 {
+    font-size: 1.5rem;
+    margin-top: 0px;
   }
   .title4 {
     font-size: 7.4vw;
@@ -202,5 +215,8 @@ label {
   }
   .contact {
     font-size: 5vw;
+  }
+  .adresse-label {
+    font-size: 4.5vw;
   }
 }
