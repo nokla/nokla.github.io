@@ -117,8 +117,6 @@ label {
 }
 .services-list {
   font-family: Ghotam-Light;
-  font-size: 1rem;
-  color: white;
   font-size: 0.8rem;
   text-rendering: optimizeLegibility !important;
 }
