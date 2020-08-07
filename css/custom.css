@@ -232,4 +232,7 @@ label {
   .img-about{
     display: block;
   }
+  .phone-marg{
+    margin-bottom: 0px;
+  }
 }
