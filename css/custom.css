@@ -169,6 +169,9 @@ label {
 .pad-l{
   padding-left: 25px;
 }
+.section-interface{
+  margin-top: 120px;
+}
 @media only screen and (max-width: 990px) {
   .navbar-toggler-icon {
     height: 2em;
@@ -251,5 +254,8 @@ label {
   }
   .about-text{
     font-size: 0.8rem;
+  }
+  .section-interface{
+    margin-top: 40px;
   }
 }
