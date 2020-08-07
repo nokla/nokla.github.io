@@ -1,6 +1,6 @@
 @font-face {
   font-family: Ghotam-Light;
-  src: url(../fonts/GothamLight.ttf);
+  src: url(../fonts/Gotham-Light.otf);
 }
 @font-face {
   font-family: Ghotam-Medium;
@@ -82,20 +82,20 @@ label {
 .title2 {
   font-family: Maiadra;
   color: white;
+  margin-top: 30px;
 }
 .title3 {
   font-family: Maiadra;
   color: #c5c982;
   font-size: 3vw;
-  line-height: 1;
+  line-height: 1.2;
 }
 .title4 {
   font-family: Ghotam-Bold;
   color: #78b624;
   font-size: 3vw;
   margin-bottom: 20px;
-  line-height: 1;
-  width: 100%;
+  line-height: 1.2;
 }
 .description {
   font-family: Ghotam-Light;
@@ -189,7 +189,7 @@ label {
     font-size: 6vw;
   }
   .title2 {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .title4 {
     font-size: 7.4vw;
