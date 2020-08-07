@@ -1,0 +1,207 @@
+@font-face {
+  font-family: Ghotam-Light;
+  src: url(../fonts/GothamLight.ttf);
+}
+@font-face {
+  font-family: Ghotam-Medium;
+  src: url(../fonts/GothamMedium.ttf);
+}
+@font-face {
+  font-family: Ghotam-Bold;
+  src: url(../fonts/GothamBold.ttf);
+}
+@font-face {
+  font-family: Maiadra;
+  src: url("../fonts/Maiandra GD Demi Bold.ttf");
+}
+body {
+  color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.con-plain {
+  background-size: cover;
+  background-image: url(../img/bg3.jpg);
+  min-height: 100%;
+  background-position: center;
+}
+.con-home {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/bg1.jpg);
+  min-height: 100%;
+}
+.con-about {
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-image: url(../img/bg2.jpg);
+}
+.col img {
+  height: 150px;
+}
+label {
+  margin-bottom: 0px;
+}
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar-brand img {
+  height: 120px;
+  background-color: white;
+  padding: 20px;
+}
+.navbar {
+  background: transparent;
+  padding-top: 0px;
+}
+.nav-item {
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+  width: 130px;
+  margin-right: 20px;
+  text-align: center;
+}
+.nav-item .nav-link {
+  color: white !important;
+  width: 100%;
+}
+.navbar-nav {
+  margin-left: 80px;
+}
+.title1 {
+  font-family: Maiadra;
+  color: white;
+  font-size: 35px;
+  -webkit-text-stroke: 1.5px black;
+}
+.title2 {
+  font-family: Maiadra;
+  color: white;
+}
+.title3 {
+  font-family: Maiadra;
+  color: #c5c982;
+  font-size: 3vw;
+  line-height: 1;
+}
+.title4 {
+  font-family: Ghotam-Bold;
+  color: #78b624;
+  font-size: 3vw;
+  margin-bottom: 20px;
+  line-height: 1;
+  width: 100%;
+}
+.description {
+  font-family: Ghotam-Light;
+  color: white;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+.about-text {
+  font-family: Ghotam-Light;
+  color: white;
+  text-align: justify;
+  font-size: 1rem;
+}
+.title5 {
+  font-family: Ghotam-Bold;
+  color: #c5c982;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.services-list {
+  font-family: Ghotam-Light;
+  font-size: 1rem;
+  color: white;
+  font-size: 0.8rem;
+  text-rendering: optimizeLegibility !important;
+}
+.contact {
+  border-left: #c5c982 1px solid;
+  font-family: Ghotam-Light;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.title6 {
+  font-family: Ghotam-Medium;
+  color: #c5c982;
+  font-size: 25px;
+}
+.about-img {
+  border: 3px white solid;
+  max-width: 100%;
+  height: 156px;
+}
+.phrase {
+  float: right !important;
+}
+.missions-img img {
+  max-width: 100%;
+}
+.expertise {
+  margin-bottom: 10px;
+}
+.finalite {
+  /* margin-top: 20px; */
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 990px) {
+  .navbar-toggler-icon {
+    height: 2em;
+    width: 2em;
+  }
+  .about-text {
+    font-size: 1rem;
+  }
+  .nav-item {
+    border-radius: 0px;
+    background-color: green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .navbar-nav {
+    margin-left: 0px;
+  }
+  .con-plain {
+    background-image: url(../img/mobile-3.jpg);
+  }
+  .con-home {
+    background-image: url(../img/mobile-1.jpg);
+  }
+  .con-about {
+    background-image: url(../img/mobile-2.jpg);
+  }
+  .text-about {
+    margin-top: 15rem;
+  }
+  .home-description {
+    margin-top: 40px;
+  }
+  .title1 {
+    font-size: 6vw;
+  }
+  .title2 {
+    font-size: 3vw;
+  }
+  .title4 {
+    font-size: 7.4vw;
+  }
+  .title3 {
+    font-size: 7.4vw;
+  }
+  .adr {
+    display: none;
+  }
+  .contact{
+    font-size: 5vw;
+  }
+}
